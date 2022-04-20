@@ -5,6 +5,8 @@ import Vuetify from 'vuetify/lib/framework';
 Vue.use(Vuetify);
 
 export default new Vuetify({
+
+    rtl:true,
     icons: {
         iconfont: 'mdi', // default - only for display purposes
     },
